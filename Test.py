@@ -145,7 +145,7 @@ def login1():
 		menu() 
 	except (KeyError,IOError):
 		os.system('clear')
-		       time.sleep(0.05)
+		time.sleep(0.05)
 		print logo
 		print "\033[1;97m ▶«--------------------------------------------»◀"
 		jalan('\033[1;96m[⚡]\x1b[1;91mDO NOT USE OLD ACCOUNT TO LOGIN\x1b[1;96m[⚡]' )
